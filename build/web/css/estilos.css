@@ -1,0 +1,146 @@
+html{
+    height: 100%;
+}
+body{
+	background-color: #00C8DC;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	padding: 80px;
+    height: 100%;
+    text-align: center;
+}	
+.helper {
+    display: inline-block;
+    width: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+.trans {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #2D2828;
+    padding: 33px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 500px;
+    border-radius: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.input-group input{
+    box-shadow: none !important;
+}
+.btn-success{
+	padding: 14px;
+    width: 100%;
+    background-color: #FFCC3D;
+    color: black;
+    font-size: smaller;
+    border: 0px;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active  {
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    color: #F8F1F1;
+    background-color: #D4A933;
+    border: 0px;
+}
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: rgba(119, 119, 119, 0.58);
+    border-color: #255625;
+    outline: none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 28px 18px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    border: 0px;
+}
+.login_text {
+    font-size: 20px;
+    color: white;
+}
+.login_title{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.div_register{
+	margin-top: 40px;
+}
+.input-group-addon:first-child {
+    background-color: white;
+    border: none;
+}
+.ingresa{
+    color: white;
+    font-size: larger;
+}
+
+.panel {
+     background-color: transparent; 
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    font-size: large;
+}
+.panel-default {
+    border-color: rgba(0, 0, 0, 0.45);
+}
+.addon-perfil {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+    border: none;
+    color: white;
+    font-size: large;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 10px;
+}
+.logout{
+    display: inline-block;
+}
+nav{
+    margin-left: 90%;
+    margin-bottom: 2%;
+}
+.alert-warning {
+    color: #FFFFFF;
+    background-color: #50A52D;
+    border-color: #50A52D;
+}
+.alert-danger {
+    color: #FFFFFF;
+    background-color: #E01B1B;
+    border-color: #E01B1B;
+}
+.panel-body {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+}
+.test {
+    font-size: initial;
+    color: #5BC0DE;
+}
+.table {
+    background-color: rgba(0, 0, 0, 0.45);
+    font-size: large;
+}
+.thead {
+    background-color: #FFCC3D;
+}
+.volver{
+    float: left;
+}
